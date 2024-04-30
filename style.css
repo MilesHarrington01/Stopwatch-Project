@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 7rem;
+    user-select: none;
+}
+
+.btn-container button {
+    font-size: 1rem;
+    padding: 1em;
+    margin-left: 50px;
+    width: 7em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#startButton {
+    background-color: darkgreen;
+    color: white;
+}
+
+#resetButton {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#pauseButton {
+    background-color: darkred;
+    color: white;
+}
+
+
+
+body {
+    background-color: lightgreen;
+}
+
